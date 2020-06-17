@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/277a2d5b13.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>GymTrek | About</title>
+  </head>
+  <body>
+    <nav id="navbar-secondary">
+      <img id="logo" src="/dist/img/GymTrek.png" alt="GymTrek Logo" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="current" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="contact-page">
+      <section class="submission-form">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="line"></div>
+          <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <div class="text-fields">
+              <input
+                type="text"
+                class="text-input name-input"
+                placeholder="Name"
+                name="name"
+              />
+              <input
+                type="email"
+                class="text-input email-input"
+                placeholder="Email Address"
+                name="email"
+              />
+              <input
+                type="text"
+                class="text-input phone-input"
+                placeholder="Phone Number"
+                name="phone"
+              />
+              <textarea
+                class="text-input message-input"
+                placeholder="Enter Message"
+                name="message"
+              ></textarea>
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="contact-info">
+        <div class="email">
+          <i class="far fa-envelope fa-2x"></i>
+          <h3>Email</h3>
+          <p>admin@gymtrek.com</p>
+        </div>
+        <div class="phone">
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Call</h3>
+          <p>555-555-5555</p>
+        </div>
+        <div class="address">
+          <i class="fas fa-address-card fa-2x"></i>
+          <h3>Drop In</h3>
+          <p>55 5th Street, Boston MA</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="container">
+        <div>
+          <p>&copy; Copyright 2020</p>
+        </div>
+        <div class="social">
+          <i class="fab fa-twitter fa-2x"><a href="#"></a></i>
+          <i class="fab fa-facebook-square fa-2x"><a href="#"></a></i>
+          <i class="fab fa-instagram fa-2x"><a href="#"></a></i>
+          <i class="fab fa-linkedin fa-2x"><a href="#"></a></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

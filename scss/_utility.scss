@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container {
+  max-width: 1000px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  background: $main-color;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: $light-color;
+    transition: ease 0.5s;
+  }
+}
+
+.line {
+  height: 2px;
+  margin: 0 auto 1rem auto;
+  width: 4rem;
+  background: $light-color;
+  display: block;
+}
